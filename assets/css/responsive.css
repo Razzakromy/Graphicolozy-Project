@@ -1,0 +1,197 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .apply_btn {
+        padding: 1.2rem 2rem;
+    }
+
+    .business_details {
+        padding: 1rem 0 1rem 0;
+        width: 28rem;
+        line-height: 2rem;
+    }
+
+    .business_sec h2 {
+        font-size: 3rem;
+    }
+
+    .summury h3 {
+        font-size: 1.4rem;
+    }
+
+    .summury h5, h3 {
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .summury p {
+        font-size: 0.8rem;
+
+    }
+
+    img.summury_team {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .business_details {
+        width: 100%;
+    }
+
+    .details_part {
+        text-align: center;
+    }
+
+    .row.summury_number {
+        margin-top: 1rem;
+    }
+
+    .down_arrow img {
+        width: 100%;
+    }
+
+    .down_arrow i {
+        height: 5rem;
+        width: 4rem;
+        line-height: 3;
+        top: 3rem;
+        left: 20rem;
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .business_sec h2 {
+        font-size: 2.5rem;
+    }
+
+    .summury h3 {
+        font-size: 1.5rem;
+        margin-top: 0rem;
+    }
+
+    .business_sec h6 {
+        font-size: .7rem;
+        font-weight: 700;
+
+    }
+
+    section.row.summury {
+        text-align: center;
+    }
+
+    .summury h5 {
+        font-size: 1.2rem;
+    }
+
+    .summury p {
+        font-size: .9rem;
+    }
+
+    img.summury_team {
+        width: 100%;
+    }
+
+    .container.summury_details {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .down_arrow i {
+        left: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .apply_btn {
+        padding: .8rem 1rem;
+    }
+
+    .play i {
+        height: 3rem;
+        width: 3rem;
+        line-height: 3;
+    }
+
+    .down_arrow i {
+        height: 4rem;
+        width: 3rem;
+        font-size: 1.3rem;
+        line-height: 3.2;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .apply_btn {
+        padding: 0.5rem .8rem;
+        font-size: 1rem;
+    }
+
+    .play {
+        padding: 0 0 0 1rem;
+    }
+
+    .down_arrow i {
+        top: 2rem;
+        left: 0rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .apply_btn {
+        padding: 0.3rem .4rem;
+        font-size: 1rem;
+    }
+
+    .play {
+        padding: 0 0 0 .5rem;
+    }
+
+    .play i {
+        height: 2rem;
+        width: 2rem;
+        line-height: 2.5;
+        font-size: .8rem;
+    }
+
+    .logoname {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .business_sec h2 {
+        font-size: 2rem;
+    }
+
+    .play_video {
+        font-weight: 600;
+        color: #000;
+        padding-left: .2rem;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logoname {
+        font-weight: 600;
+        font-size: .6rem;
+    }
+
+    .summury h3 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .summury h5 {
+        font-size: 1.5rem;
+    }
+
+    .business_sec h6 {
+        font-size: .5rem;
+        font-weight: 700;
+    }
+}

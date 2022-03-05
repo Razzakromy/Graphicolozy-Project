@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("../img/biography-bg.png");
+    background-size: cover;
+}
+
+/* Menu */
+.logoname {
+    font-weight: 600;
+}
+
+.contact {
+    border-radius: 40px;
+    background: #FFDB26;
+    outline: none;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+    color: #383232;
+    font-weight: 500;
+}
+
+.dropdown-toggle::after {
+    border-top: 0 solid;
+    border-bottom: 0;
+}
+
+.fa-angle-down:before {
+    margin-left: 0.5rem;
+    color: #F14739;
+}
+
+/* Menu */
+hr {
+    margin-top: .5rem;
+    border-top: 2px solid rgba(0, 0, 0, .1);
+}
+
+/* Business Section */
+.business_sec h6 {
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 800;
+    color: #adadad;
+    letter-spacing: .1rem;
+}
+
+.business_sec h2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: .1rem;
+}
+
+.expand {
+    font-weight: 600;
+}
+
+.business {
+    font-weight: 700;
+}
+
+.business_details {
+    text-align: justify;
+    width: 26rem;
+    line-height: 2rem;
+    color: #383232;
+    padding: 2rem 0 2rem 0;
+}
+
+.apply_btn {
+    border-radius: 40px;
+    background: #FF4A41;
+    padding: 1.4rem 3rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.right_arrow {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #ff0;
+    color: #000;
+    margin-left: 1rem;
+    line-height: 2.3rem;
+}
+
+.fa-angle-right {
+    font-size: 1.3rem;
+}
+
+.play {
+    padding: 0 0 0 2rem;
+}
+
+.play i {
+    height: 4rem;
+    width: 4rem;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+    box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 4;
+    background: #fff;
+    color: #000;
+}
+
+.play_video {
+    font-weight: 700;
+    color: #000;
+    padding-left: 1rem;
+}
+
+/* Business Section */
+
+/* Summury Section */
+
+.summury h3 {
+    font-size: 1.4rem;
+}
+
+.summury h5, h3 {
+    font-weight: 700;
+}
+
+.summury p {
+    color: #adadad;
+}
+
+.summury img {
+    border-radius: 1rem !important;
+    -webkit-border-radius: 1rem !important;
+    -moz-border-radius: 1rem !important;
+    -ms-border-radius: 1rem !important;
+    -o-border-radius: 1rem !important;
+}
+
+.down_arrow {
+    position: absolute;
+}
+
+.down_arrow i {
+    height: 3rem;
+    width: 2rem;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+    box-shadow: 0px 8px 16px 0px rgba(255, 194, 200, 0.3);
+    border-radius: 2rem;
+    text-align: center;
+    line-height: 3;
+    background: #fff;
+    color: #000;
+    position: relative;
+    top: 5rem;
+    left: 9rem;
+}
+
+/* Summury Section */
